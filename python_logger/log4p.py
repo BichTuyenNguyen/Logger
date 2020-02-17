@@ -5,6 +5,7 @@ LEVELS = {
     'info': logging.INFO,
 }
 
+
 class Logger:
     def __init__(self):
         log_name = r'logs\logger_{date}.log'.format(date=datetime.now().strftime('%d%m%Y'))
@@ -23,12 +24,4 @@ class Logger:
     def print_log(self, level, message):
         self.logger = logging.log(level, message)
 
-
-# LEVELS = {
-#     LevelType.DEBUG: logging.DEBUG,
-#     LevelType.INFO: logging.INFO,
-#     LevelType.WARNING: logging.WARNING,
-#     LevelType.ERROR: logging.ERROR,
-#     LevelType.CRITICAL: logging.CRITICAL,
-# }
 

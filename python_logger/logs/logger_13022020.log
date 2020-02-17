@@ -1,28 +1,5 @@
-00:14:51,474 root INFO start logging...
-00:14:51,474 root INFO tuyen xinh dep
-00:14:51,474 root INFO start add function - result: 9
-00:14:51,474 root INFO finish log!
-00:15:13,63 root INFO start logging...
-00:15:13,63 root INFO tuyen xinh dep
-00:15:13,63 root INFO start add function - result: 9
-00:15:13,63 root INFO finish log!
-00:15:58,263 root INFO start logging...
-00:15:58,263 root INFO tuyen xinh dep
-00:15:58,263 root INFO start add function - result: 9
-00:16:27,501 root INFO start logging...
-00:16:27,501 root INFO tuyen xinh dep
-00:16:27,501 root INFO start add function - result: 9
-00:16:41,174 root INFO start logging...
-00:16:41,174 root INFO tuyen xinh dep
-00:16:41,174 root INFO start add function - result: 9
-00:16:41,174 root INFO finish log!
-00:17:19,164 root INFO start logging...
-00:17:19,164 root INFO tuyen xinh dep
-00:17:19,164 root INFO start add function - result: 9
-00:17:19,164 root INFO add data - 
-00:17:19,164 root INFO finish log!
-00:17:38,161 root INFO start logging...
-00:17:38,161 root INFO tuyen xinh dep
-00:17:38,161 root INFO start add function - result: 9
-00:17:38,161 root INFO add data - {'name:': 'tuyen', 'age': '23'}
-00:17:38,161 root INFO finish log!
+20:52:12,682 root INFO start logging...
+20:52:12,682 root INFO this is a log.
+20:52:12,682 root INFO start add function - result: 9
+20:52:12,682 root INFO add data - {'name:': 'tuyen', 'age': '23'}
+20:52:12,682 root INFO finish log!

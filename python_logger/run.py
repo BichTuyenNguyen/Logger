@@ -1,9 +1,18 @@
 from log4p import Logger, LEVELS
 from calculation import Caculation
 
-data = {'name:': 'tuyen', 'age': '23'}
+# start log
 Logger().start_log()
-Logger().print_log(LEVELS['info'], "tuyen xinh dep")
+
+# log String type
+Logger().print_log(LEVELS['info'], "this is a log.")
+
+# Log Integer type
 Caculation.add(4, 5)
-Logger().print_log(20, "add data - " + str(data) )
+
+# Log Dictionary type
+data = {'name:': 'tuyen', 'age': '23'}
+Logger().print_log(20, "add data - " + str(data))
+
+# end log
 Logger().finish_log()
